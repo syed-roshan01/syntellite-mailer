@@ -146,7 +146,7 @@ export default function App() {
                 </div>
               )}
 
-              <aside className="hidden w-72 border-r border-transparent lg:block">
+              <aside className="hidden h-[calc(100vh-64px)] w-72 shrink-0 border-r border-slate-200 bg-white/80 backdrop-blur lg:flex lg:flex-col">
                 <Sidebar current={current} setCurrent={handleNavigate} />
               </aside>
 
